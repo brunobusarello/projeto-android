@@ -59,6 +59,7 @@ header > p {
 nav {
     background-color: var(--cor1);
     padding: 10px;
+    position: fixed;
 }
 
 nav > a {
