@@ -38,7 +38,7 @@ header {
     padding-top: 20px;
 }
 
-header > h1 {
+header  h1 {
     color: white;
     font-family: var(--fonte-destaque);
     margin-bottom: 20px;
@@ -59,6 +59,9 @@ header > p {
 nav {
     background-color: var(--cor1);
     padding: 10px;
+    position: sticky;
+    top: 0%;
+    left: 0%;
 }
 
 nav > a {
@@ -144,7 +147,7 @@ main img.pequena {
 
 div.video {
     background-color: var(--cor4);
-    margin: 0px -20px 35px -20px;
+    margin: 0px 15px 35px 15px;
     padding: 20px;
     padding-bottom: 56.82%;
     position: relative;
